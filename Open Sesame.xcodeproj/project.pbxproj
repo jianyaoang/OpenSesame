@@ -23,6 +23,7 @@
 		41EF3ABA19A00AD50006CCDD /* Open_SesameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */; };
 		41EF3AC519A00FC20006CCDD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AC419A00FC20006CCDD /* MenuViewController.m */; };
 		41EF3AC819A0127F0006CCDD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AC719A0127F0006CCDD /* MainViewController.m */; };
+		41EF3ACB19A013E20006CCDD /* ItemOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3ACA19A013E20006CCDD /* ItemOneViewController.m */; };
 		CE4EF616752D4EE2A6788779 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79C2B71EB410AA997EAA5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,8 @@
 		41EF3AC419A00FC20006CCDD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		41EF3AC619A0127F0006CCDD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		41EF3AC719A0127F0006CCDD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		41EF3AC919A013E20006CCDD /* ItemOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOneViewController.h; sourceTree = "<group>"; };
+		41EF3ACA19A013E20006CCDD /* ItemOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				41EF3A9D19A00AD40006CCDD /* AppDelegate.h */,
 				41EF3A9E19A00AD40006CCDD /* AppDelegate.m */,
 				41EF3AA019A00AD40006CCDD /* Main.storyboard */,
+				41EF3AC919A013E20006CCDD /* ItemOneViewController.h */,
+				41EF3ACA19A013E20006CCDD /* ItemOneViewController.m */,
 				41EF3AC619A0127F0006CCDD /* MainViewController.h */,
 				41EF3AC719A0127F0006CCDD /* MainViewController.m */,
 				41EF3AC319A00FC10006CCDD /* MenuViewController.h */,
@@ -302,6 +307,7 @@
 			files = (
 				41EF3AA519A00AD50006CCDD /* ViewController.m in Sources */,
 				41EF3A9F19A00AD40006CCDD /* AppDelegate.m in Sources */,
+				41EF3ACB19A013E20006CCDD /* ItemOneViewController.m in Sources */,
 				41EF3A9B19A00AD40006CCDD /* main.m in Sources */,
 				41EF3AC819A0127F0006CCDD /* MainViewController.m in Sources */,
 				41EF3AC519A00FC20006CCDD /* MenuViewController.m in Sources */,
