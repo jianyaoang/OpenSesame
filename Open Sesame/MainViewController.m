@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import <SWRevealViewController.h>
 
 @interface MainViewController ()
 
@@ -20,8 +21,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    [self setupPage];
 }
 
+-(void)setupPage
+{
+    SWRevealViewController *revealViewController = self.revealViewController;
+    
+    if (revealViewController)
+    {
+        [self.menuBarButtonItem setTarget:self.revealViewController];
+        [self.menuBarButtonItem setAction:@selector(revealToggle:)];
+        [self.navigationController.navigationBar addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
+}
 
 @end
