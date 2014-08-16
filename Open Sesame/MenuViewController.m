@@ -48,6 +48,17 @@
             break;
     }
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    
+    if ([cellID isEqualToString:@"main"])
+    {
+        cell.textLabel.text = @"Main";
+    }
+    else if ([cellID isEqualToString:@"item1"])
+    {
+        cell.textLabel.text = @"Item1"
+        ;
+    }
+    
     return cell;
 }
 
