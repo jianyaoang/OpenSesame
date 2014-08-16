@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41EF3A8F19A00AD40006CCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A8E19A00AD40006CCDD /* Foundation.framework */; };
+		41EF3A9119A00AD40006CCDD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A9019A00AD40006CCDD /* CoreGraphics.framework */; };
+		41EF3A9319A00AD40006CCDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A9219A00AD40006CCDD /* UIKit.framework */; };
+		41EF3A9919A00AD40006CCDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41EF3A9719A00AD40006CCDD /* InfoPlist.strings */; };
+		41EF3A9B19A00AD40006CCDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3A9A19A00AD40006CCDD /* main.m */; };
+		41EF3A9F19A00AD40006CCDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3A9E19A00AD40006CCDD /* AppDelegate.m */; };
+		41EF3AA219A00AD40006CCDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41EF3AA019A00AD40006CCDD /* Main.storyboard */; };
+		41EF3AA519A00AD50006CCDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AA419A00AD50006CCDD /* ViewController.m */; };
+		41EF3AA719A00AD50006CCDD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EF3AA619A00AD50006CCDD /* Images.xcassets */; };
+		41EF3AAE19A00AD50006CCDD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3AAD19A00AD50006CCDD /* XCTest.framework */; };
+		41EF3AAF19A00AD50006CCDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A8E19A00AD40006CCDD /* Foundation.framework */; };
+		41EF3AB019A00AD50006CCDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A9219A00AD40006CCDD /* UIKit.framework */; };
+		41EF3AB819A00AD50006CCDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41EF3AB619A00AD50006CCDD /* InfoPlist.strings */; };
+		41EF3ABA19A00AD50006CCDD /* Open_SesameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41EF3AB119A00AD50006CCDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41EF3A8319A00AD30006CCDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41EF3A8A19A00AD40006CCDD;
+			remoteInfo = "Open Sesame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41EF3A8B19A00AD40006CCDD /* Open Sesame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Sesame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EF3A8E19A00AD40006CCDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41EF3A9019A00AD40006CCDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41EF3A9219A00AD40006CCDD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41EF3A9619A00AD40006CCDD /* Open Sesame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open Sesame-Info.plist"; sourceTree = "<group>"; };
+		41EF3A9819A00AD40006CCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41EF3A9A19A00AD40006CCDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41EF3A9C19A00AD40006CCDD /* Open Sesame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Open Sesame-Prefix.pch"; sourceTree = "<group>"; };
+		41EF3A9D19A00AD40006CCDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41EF3A9E19A00AD40006CCDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41EF3AA119A00AD40006CCDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41EF3AA319A00AD50006CCDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41EF3AA419A00AD50006CCDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41EF3AA619A00AD50006CCDD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41EF3AAC19A00AD50006CCDD /* Open SesameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open SesameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EF3AAD19A00AD50006CCDD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41EF3AB519A00AD50006CCDD /* Open SesameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open SesameTests-Info.plist"; sourceTree = "<group>"; };
+		41EF3AB719A00AD50006CCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_SesameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41EF3A8819A00AD40006CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3A9119A00AD40006CCDD /* CoreGraphics.framework in Frameworks */,
+				41EF3A9319A00AD40006CCDD /* UIKit.framework in Frameworks */,
+				41EF3A8F19A00AD40006CCDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF3AA919A00AD50006CCDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3AAE19A00AD50006CCDD /* XCTest.framework in Frameworks */,
+				41EF3AB019A00AD50006CCDD /* UIKit.framework in Frameworks */,
+				41EF3AAF19A00AD50006CCDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41EF3A8219A00AD30006CCDD = {
+			isa = PBXGroup;
+			children = (
+				41EF3A9419A00AD40006CCDD /* Open Sesame */,
+				41EF3AB319A00AD50006CCDD /* Open SesameTests */,
+				41EF3A8D19A00AD40006CCDD /* Frameworks */,
+				41EF3A8C19A00AD40006CCDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41EF3A8C19A00AD40006CCDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3A8B19A00AD40006CCDD /* Open Sesame.app */,
+				41EF3AAC19A00AD50006CCDD /* Open SesameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41EF3A8D19A00AD40006CCDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3A8E19A00AD40006CCDD /* Foundation.framework */,
+				41EF3A9019A00AD40006CCDD /* CoreGraphics.framework */,
+				41EF3A9219A00AD40006CCDD /* UIKit.framework */,
+				41EF3AAD19A00AD50006CCDD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41EF3A9419A00AD40006CCDD /* Open Sesame */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3A9D19A00AD40006CCDD /* AppDelegate.h */,
+				41EF3A9E19A00AD40006CCDD /* AppDelegate.m */,
+				41EF3AA019A00AD40006CCDD /* Main.storyboard */,
+				41EF3AA319A00AD50006CCDD /* ViewController.h */,
+				41EF3AA419A00AD50006CCDD /* ViewController.m */,
+				41EF3AA619A00AD50006CCDD /* Images.xcassets */,
+				41EF3A9519A00AD40006CCDD /* Supporting Files */,
+			);
+			path = "Open Sesame";
+			sourceTree = "<group>";
+		};
+		41EF3A9519A00AD40006CCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3A9619A00AD40006CCDD /* Open Sesame-Info.plist */,
+				41EF3A9719A00AD40006CCDD /* InfoPlist.strings */,
+				41EF3A9A19A00AD40006CCDD /* main.m */,
+				41EF3A9C19A00AD40006CCDD /* Open Sesame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41EF3AB319A00AD50006CCDD /* Open SesameTests */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */,
+				41EF3AB419A00AD50006CCDD /* Supporting Files */,
+			);
+			path = "Open SesameTests";
+			sourceTree = "<group>";
+		};
+		41EF3AB419A00AD50006CCDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41EF3AB519A00AD50006CCDD /* Open SesameTests-Info.plist */,
+				41EF3AB619A00AD50006CCDD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41EF3A8A19A00AD40006CCDD /* Open Sesame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EF3ABD19A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open Sesame" */;
+			buildPhases = (
+				41EF3A8719A00AD40006CCDD /* Sources */,
+				41EF3A8819A00AD40006CCDD /* Frameworks */,
+				41EF3A8919A00AD40006CCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Sesame";
+			productName = "Open Sesame";
+			productReference = 41EF3A8B19A00AD40006CCDD /* Open Sesame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41EF3AAB19A00AD50006CCDD /* Open SesameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41EF3AC019A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open SesameTests" */;
+			buildPhases = (
+				41EF3AA819A00AD50006CCDD /* Sources */,
+				41EF3AA919A00AD50006CCDD /* Frameworks */,
+				41EF3AAA19A00AD50006CCDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41EF3AB219A00AD50006CCDD /* PBXTargetDependency */,
+			);
+			name = "Open SesameTests";
+			productName = "Open SesameTests";
+			productReference = 41EF3AAC19A00AD50006CCDD /* Open SesameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41EF3A8319A00AD30006CCDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jian Yao Ang";
+				TargetAttributes = {
+					41EF3AAB19A00AD50006CCDD = {
+						TestTargetID = 41EF3A8A19A00AD40006CCDD;
+					};
+				};
+			};
+			buildConfigurationList = 41EF3A8619A00AD30006CCDD /* Build configuration list for PBXProject "Open Sesame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41EF3A8219A00AD30006CCDD;
+			productRefGroup = 41EF3A8C19A00AD40006CCDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41EF3A8A19A00AD40006CCDD /* Open Sesame */,
+				41EF3AAB19A00AD50006CCDD /* Open SesameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41EF3A8919A00AD40006CCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3AA719A00AD50006CCDD /* Images.xcassets in Resources */,
+				41EF3A9919A00AD40006CCDD /* InfoPlist.strings in Resources */,
+				41EF3AA219A00AD40006CCDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF3AAA19A00AD50006CCDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3AB819A00AD50006CCDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41EF3A8719A00AD40006CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3AA519A00AD50006CCDD /* ViewController.m in Sources */,
+				41EF3A9F19A00AD40006CCDD /* AppDelegate.m in Sources */,
+				41EF3A9B19A00AD40006CCDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41EF3AA819A00AD50006CCDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41EF3ABA19A00AD50006CCDD /* Open_SesameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41EF3AB219A00AD50006CCDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41EF3A8A19A00AD40006CCDD /* Open Sesame */;
+			targetProxy = 41EF3AB119A00AD50006CCDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41EF3A9719A00AD40006CCDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EF3A9819A00AD40006CCDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41EF3AA019A00AD40006CCDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EF3AA119A00AD40006CCDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41EF3AB619A00AD50006CCDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41EF3AB719A00AD50006CCDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41EF3ABB19A00AD50006CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41EF3ABC19A00AD50006CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41EF3ABE19A00AD50006CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Sesame/Open Sesame-Prefix.pch";
+				INFOPLIST_FILE = "Open Sesame/Open Sesame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41EF3ABF19A00AD50006CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Sesame/Open Sesame-Prefix.pch";
+				INFOPLIST_FILE = "Open Sesame/Open Sesame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41EF3AC119A00AD50006CCDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open Sesame.app/Open Sesame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Sesame/Open Sesame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Open SesameTests/Open SesameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41EF3AC219A00AD50006CCDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Open Sesame.app/Open Sesame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Open Sesame/Open Sesame-Prefix.pch";
+				INFOPLIST_FILE = "Open SesameTests/Open SesameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41EF3A8619A00AD30006CCDD /* Build configuration list for PBXProject "Open Sesame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF3ABB19A00AD50006CCDD /* Debug */,
+				41EF3ABC19A00AD50006CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41EF3ABD19A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open Sesame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF3ABE19A00AD50006CCDD /* Debug */,
+				41EF3ABF19A00AD50006CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41EF3AC019A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open SesameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41EF3AC119A00AD50006CCDD /* Debug */,
+				41EF3AC219A00AD50006CCDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41EF3A8319A00AD30006CCDD /* Project object */;
+}
