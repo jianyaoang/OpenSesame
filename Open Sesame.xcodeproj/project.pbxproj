@@ -21,6 +21,9 @@
 		41EF3AB019A00AD50006CCDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EF3A9219A00AD40006CCDD /* UIKit.framework */; };
 		41EF3AB819A00AD50006CCDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41EF3AB619A00AD50006CCDD /* InfoPlist.strings */; };
 		41EF3ABA19A00AD50006CCDD /* Open_SesameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */; };
+		41EF3AC519A00FC20006CCDD /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AC419A00FC20006CCDD /* MenuViewController.m */; };
+		41EF3AC819A0127F0006CCDD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41EF3AC719A0127F0006CCDD /* MainViewController.m */; };
+		CE4EF616752D4EE2A6788779 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E79C2B71EB410AA997EAA5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E79C2B71EB410AA997EAA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		407476DE004249A2812A10AD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		41EF3A8B19A00AD40006CCDD /* Open Sesame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Sesame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EF3A8E19A00AD40006CCDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41EF3A9019A00AD40006CCDD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,10 @@
 		41EF3AB519A00AD50006CCDD /* Open SesameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Open SesameTests-Info.plist"; sourceTree = "<group>"; };
 		41EF3AB719A00AD50006CCDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41EF3AB919A00AD50006CCDD /* Open_SesameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Open_SesameTests.m; sourceTree = "<group>"; };
+		41EF3AC319A00FC10006CCDD /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		41EF3AC419A00FC20006CCDD /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		41EF3AC619A0127F0006CCDD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		41EF3AC719A0127F0006CCDD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,7 @@
 				41EF3A9119A00AD40006CCDD /* CoreGraphics.framework in Frameworks */,
 				41EF3A9319A00AD40006CCDD /* UIKit.framework in Frameworks */,
 				41EF3A8F19A00AD40006CCDD /* Foundation.framework in Frameworks */,
+				CE4EF616752D4EE2A6788779 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,7 @@
 				41EF3AB319A00AD50006CCDD /* Open SesameTests */,
 				41EF3A8D19A00AD40006CCDD /* Frameworks */,
 				41EF3A8C19A00AD40006CCDD /* Products */,
+				407476DE004249A2812A10AD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +116,7 @@
 				41EF3A9019A00AD40006CCDD /* CoreGraphics.framework */,
 				41EF3A9219A00AD40006CCDD /* UIKit.framework */,
 				41EF3AAD19A00AD50006CCDD /* XCTest.framework */,
+				18E79C2B71EB410AA997EAA5 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +127,10 @@
 				41EF3A9D19A00AD40006CCDD /* AppDelegate.h */,
 				41EF3A9E19A00AD40006CCDD /* AppDelegate.m */,
 				41EF3AA019A00AD40006CCDD /* Main.storyboard */,
+				41EF3AC619A0127F0006CCDD /* MainViewController.h */,
+				41EF3AC719A0127F0006CCDD /* MainViewController.m */,
+				41EF3AC319A00FC10006CCDD /* MenuViewController.h */,
+				41EF3AC419A00FC20006CCDD /* MenuViewController.m */,
 				41EF3AA319A00AD50006CCDD /* ViewController.h */,
 				41EF3AA419A00AD50006CCDD /* ViewController.m */,
 				41EF3AA619A00AD50006CCDD /* Images.xcassets */,
@@ -159,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41EF3ABD19A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open Sesame" */;
 			buildPhases = (
+				73660F2F7E214626B4D550FD /* Check Pods Manifest.lock */,
 				41EF3A8719A00AD40006CCDD /* Sources */,
 				41EF3A8819A00AD40006CCDD /* Frameworks */,
 				41EF3A8919A00AD40006CCDD /* Resources */,
+				C3C03D7F1A49482C86E7C807 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +262,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73660F2F7E214626B4D550FD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C03D7F1A49482C86E7C807 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41EF3A8719A00AD40006CCDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -252,6 +303,8 @@
 				41EF3AA519A00AD50006CCDD /* ViewController.m in Sources */,
 				41EF3A9F19A00AD40006CCDD /* AppDelegate.m in Sources */,
 				41EF3A9B19A00AD40006CCDD /* main.m in Sources */,
+				41EF3AC819A0127F0006CCDD /* MainViewController.m in Sources */,
+				41EF3AC519A00FC20006CCDD /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +426,7 @@
 		};
 		41EF3ABE19A00AD50006CCDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407476DE004249A2812A10AD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +440,7 @@
 		};
 		41EF3ABF19A00AD50006CCDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 407476DE004249A2812A10AD /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +511,7 @@
 				41EF3ABF19A00AD50006CCDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41EF3AC019A00AD50006CCDD /* Build configuration list for PBXNativeTarget "Open SesameTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +520,7 @@
 				41EF3AC219A00AD50006CCDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
