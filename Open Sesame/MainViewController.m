@@ -32,7 +32,7 @@
     {
         [self.menuBarButtonItem setTarget:self.revealViewController];
         [self.menuBarButtonItem setAction:@selector(revealToggle:)];
-        [self.navigationController.navigationBar addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     }
 }
 
